@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>slack</id>
+    <title>Slack for Windows</title>
+    <version>1.0.0</version>
+    <authors>Slack Technologies, Inc.</authors>
+    <owners>kendaleiv</owners>
+    <summary>Slack for Windows</summary>
+    <description>Slack is a platform for team communication: everything in one place, instantly searchable, available wherever you go.</description>
+    <projectUrl>https://slack.com/</projectUrl>
+    <tags>slack</tags>
+    <copyright>Slack Technologies, Inc.</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
