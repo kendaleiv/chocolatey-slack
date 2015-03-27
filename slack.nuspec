@@ -10,6 +10,7 @@
     <summary>Slack for Windows</summary>
     <description>Slack is a platform for team communication: everything in one place, instantly searchable, available wherever you go.</description>
     <projectUrl>https://slack.com/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/kendaleiv/chocolatey-slack/master/slack.png</iconUrl>
     <tags>slack</tags>
     <copyright>Slack Technologies, Inc.</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
