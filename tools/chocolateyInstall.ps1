@@ -1,7 +1,13 @@
-﻿$packageName = "slack"
-$fileType = "exe"
-$silentArgs = "-s"
-$url = "https://slack.com/ssb/download-win"
-$url64 = "https://slack.com/ssb/download-win64"
+﻿$packageName= 'slack'
+$url        = 'https://slack.com/ssb/download-win-msi'
+$url64      = 'https://slack.com/ssb/download-win64-msi'
 
-Install-ChocolateyPackage $packageName $fileType $silentArgs $url $url64
+$packageArgs = @{
+  packageName   = $packageName
+  fileType      = 'msi'
+  url           = $url
+  url64bit      = $url64
+  silentArgs    = "/qn /norestart"
+}
+
+Install-ChocolateyPackage @packageArgs
